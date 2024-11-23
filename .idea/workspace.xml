@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b9ed2c-bf44-44d2-a69c-4054ca596bab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/TitleOmdb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/DivisorSameZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/GitHubConsultException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/YearConvertionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/ApiCoinGecko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/ApiGitHub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/ApiGoogleBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/ApiTheMealDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/NumberDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/PasswordReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovieSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/CarReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/FileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/TitleReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises/ApiGoogleBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/ApiGoogleBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +44,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApiCoinGecko.executor": "Run",
+    "Application.ApiGitHub.executor": "Run",
     "Application.ApiGoogleBooks.executor": "Run",
     "Application.ApiTheMealDB.executor": "Run",
+    "Application.CarReader.executor": "Run",
+    "Application.FileCreator.executor": "Run",
     "Application.MovieSearch.executor": "Run",
     "Application.NumberDivision.executor": "Run",
     "Application.PasswordReader.executor": "Run",
+    "Application.TitleReader.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -80,7 +69,7 @@
       <recent name="Exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApiGitHub">
+  <component name="RunManager" selected="Application.FileCreator">
     <configuration name="ApiGitHub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.ApiGitHub" />
       <module name="ApiStudy" />
@@ -94,22 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTheMealDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.ApiTheMealDB" />
-      <module name="ApiStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MovieSearch" />
-      <module name="ApiStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.NumberDivision" />
+    <configuration name="CarReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.CarReader" />
       <module name="ApiStudy" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PasswordReader" />
+    <configuration name="FileCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.FileCreator" />
+      <module name="ApiStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieSearch" />
+      <module name="ApiStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.TitleReader" />
       <module name="ApiStudy" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGitHub" />
-        <item itemvalue="Application.PasswordReader" />
-        <item itemvalue="Application.NumberDivision" />
+        <item itemvalue="Application.FileCreator" />
+        <item itemvalue="Application.CarReader" />
+        <item itemvalue="Application.TitleReader" />
         <item itemvalue="Application.MovieSearch" />
-        <item itemvalue="Application.ApiTheMealDB" />
+        <item itemvalue="Application.ApiGitHub" />
       </list>
     </recent_temporary>
   </component>

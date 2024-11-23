@@ -14,7 +14,6 @@ public class ApiGoogleBooks {
         System.out.println("Type a book name: ");
         var search = sc.nextLine();
 
-        String apikey = "AIzaSyAtRwDNGeQj5f-FZ1ZhjBPiTAUOrzfysV4";
         String address = "https://www.googleapis.com/books/v1/volumes?q=" + search + "keyes&key=" + apikey;
 
         HttpClient client = HttpClient.newBuilder()

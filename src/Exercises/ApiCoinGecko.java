@@ -14,7 +14,7 @@ public class ApiCoinGecko {
         System.out.println("Type a coin name: ");
         var search = sc.nextLine();
 
-        String apikey = "CG-jx78LzaY9saGm7sDgtK1iWjv";
+
         String address = "https://api.coingecko.com/api/v3/simple/price?ids=" + search + "&vs_currencies=usd";
 
         HttpClient client = HttpClient.newBuilder()

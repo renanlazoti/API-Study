@@ -77,8 +77,8 @@ public class Title {
 
     @Override
     public String toString() {
-        return "name= " + nome + '\'' +
-                ", year of release=" + anoDeLancamento + '\'' +
-                ", minutes duration=" + duracaoEmMinutos;
+        return "(name = " + nome +
+                ", year of release = " + anoDeLancamento +
+                ", minutes duration = " + duracaoEmMinutos + ")";
     }
 }
